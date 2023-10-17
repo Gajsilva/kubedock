@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: spring-config
+data:
+  APPLICATION_NAME: Spring
+  DATABASE_URL: jdbc:mysql://mysql-service:3306/kubeSSL=false&serverTimezone=UTC
+  DB_USER: user123
+  DB_PASSWORD: senha123
